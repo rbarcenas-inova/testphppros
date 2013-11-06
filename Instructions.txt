@@ -1,0 +1,11 @@
+BASADO EN LOS SIGUIENTES 3 ARCHIVOS
+
+(Solo de referencia, No modificarlos)
+nsBase.php
+nsBase.pl
+nsBase.new.pl
+
+
+El archivo resultante debe ser un archivo nuevo nombrado
+nsBase.new.php
+
