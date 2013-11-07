@@ -1,10 +1,12 @@
-BASADO EN LOS SIGUIENTES 3 ARCHIVOS
+> BASADO EN LOS SIGUIENTES 3 ARCHIVOS
 
 (Solo de referencia, No modificarlos)
-nsBase.php
-nsBase.pl
-nsBase.new.pl
+nsBase.pl .- Contiene version antigua del codigo (PERL)
+nsBase.new.pl .- Contiene version actual del codigo (PERL)
 
+nsBase.php .- Contiene version antigua del codigo (PHP)
+
+> LO QUE SE REQUIERE ES CREAR UN ARCHIVO NUEVO EN PHP, QUE TENGA LA MEJORA QUE SE APLICO AL ARCHIVO nsBase.new.pl DE PERL
 
 El archivo resultante debe ser un archivo nuevo nombrado
 nsBase.new.php
