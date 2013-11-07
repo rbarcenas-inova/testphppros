@@ -16,14 +16,7 @@
 	#####
 	##### Tip: Aqui la ruta del script es httpdcos/
 	#####
-
-   
-
-
-	$dir = getcwd() ;
-	list($b_cgibin,$a_cgibin) = explode("/httpdcos/",$dir);
-	$home_dir = $b_cgibin.'httpdcos/common';
-	$cfg_folder = $home_dir;
+	$cfg_folder = $_SERVER['DOCUMENT_ROOT']."cgi-bin/nsc_admin/common/";
 	load_sys_data(); //Load $sys
 
 
