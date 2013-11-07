@@ -16,7 +16,9 @@
 	#####
 	##### Tip: Aqui la ruta del script es httpdcos/
 	#####
-	$cfg_folder = $_SERVER['DOCUMENT_ROOT']."cgi-bin/nsc_admin/common/";
+	list($cfg_foldera,$cfg_folderb) = split("httpdocs",getcwd())
+	$cfg_folder = $cfg_foldera."cgi-bin/nsc_admin/common";
+
 	load_sys_data(); //Load $sys
 
 
