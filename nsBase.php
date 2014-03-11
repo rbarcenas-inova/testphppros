@@ -1,22 +1,18 @@
 <?php
-	require("functions.php");
-	require("functions_port.php");
-
-	define('DATE_FORMAT_LONG', '%A %d %B, %Y');
 
 	#####
-	##### To Do ) Cambiar la forma de determinar lo que contiene la variable $cfg_folder.
+	##### ToDo ) Cambiar la forma de determinar lo que contiene la variable $cfg_folder.
 	####          Nota: La forma tiene que ser lo mas apegada posible a la solucion del archivo nsBase.new.pl
 	#####
-
-	######################################################
-	##### Configuration File
-	######################################################
 
 	#####
 	##### Tip: Aqui la ruta del script es httpdcos/
 	#####
 
+
+	######################################################
+	##### Configuration File
+	######################################################
     if($local == "n3"){
           $cfg_folder        = "/home/www/inn_domains/dev.innovashop.tv/cgi-bin/nsc_admin/common/";
     }elseif($local == "s12.shoplatinotv.com"){
@@ -30,6 +26,9 @@
 
 
 
+	#####
+	##### Esto es unicamente referencial
+	#####	
 
 	function load_sys_data() {
 

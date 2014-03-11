@@ -1,13 +1,34 @@
-> BASADO EN LOS SIGUIENTES 3 ARCHIVOS
+BASADO EN LOS SIGUIENTES ARCHIVOS
 
-(Solo de referencia, No modificarlos)
+##############################################
+##############################################
+##############################################
+Solo de referencia, No modificarlos
+##############################################
+##############################################
+##############################################
 nsBase.pl .- Contiene version antigua del codigo (PERL)
-nsBase.new.pl .- Contiene version actual del codigo (PERL)
+nsBase.new.pl .- Contiene version actual del codigo (PERL), que es una solucion mejor al anterior
 
-nsBase.php .- Contiene version antigua del codigo (PHP)
 
-> LO QUE SE REQUIERE ES CREAR UN ARCHIVO NUEVO EN PHP, QUE TENGA LA MEJORA QUE SE APLICO AL ARCHIVO nsBase.new.pl DE PERL
+##############################################
+##############################################
+##############################################
+Tareas a Completar
+##############################################
+##############################################
+##############################################
 
-El archivo resultante debe ser un archivo nuevo nombrado
+
+1. EXPLICAR QUE ES LO QUE ESTA HACIENDO EL CODIGO Y CUAL FUE LA MEJORA QUE SE REALIZO.
+2. CREAR UN ARCHIVO NUEVO EN PHP, QUE TENGA LA MEJORA QUE SE APLICO AL ARCHIVO nsBase.new.pl DE PERL
+
+Version anterior (Para referencia)
+nsBase.php .- Contiene version antigua del codigo, es una copia en PHP del archivo nsBase.pl
+
+El archivo resultante debera ser lo mas parecido a la solucion en PERL, 
+es decir que debe tratar de usar las mismas librerias y funciones
+
+Nombrar el archivo nuevo
 nsBase.new.php
 
